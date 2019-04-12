@@ -101,6 +101,7 @@ while playing:
         try:
             # command = 'north'
             room_name = getattr(player.current_location, command)
+            
             room_object = globals()[room_name]
 
             player.move(room_object)
