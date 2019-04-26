@@ -16,7 +16,7 @@ class Chicken_Noodle_Soup(Item):
         super().__init__(name, description)
         self.flavor = flavor
 
-
+class 
 factory_key = Key("the Key to the Factory", "it unlocks the factory", factory)
 meat_warehouse = Key("the key to the warehouse", "it unlocks the warehouse", warehouse)
 onion_flavor = Chicken_Noodle_Soup("flavor chicken noodle soup", flavor)
