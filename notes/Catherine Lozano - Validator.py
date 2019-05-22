@@ -23,11 +23,14 @@ n = "4556737586899855"
 
 print(drop_last(n))
 print(reverse(n))
+    last_digit = n[15]
+    list_of_digits = drop_last(n)
+    for index in range(len(list_of_digits)):
+        if index % 2 == 0:      
 
-list_num = list_num[1]
-for i in range(len(list_num)):
-    if list_num[i]%2 != 0:
-        print(list_num[i]*2)
+
+
+
 
 
 
